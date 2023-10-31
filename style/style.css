@@ -1,0 +1,156 @@
+.nav-BG {
+    background-color: #000324;
+    align-items: end;
+}
+
+/* font family: Doris */
+.white-text, 
+.group1header,
+.header-size,
+.room-title,
+.card-title,
+.package-title,
+h3,
+.group5title {
+    font-family: 'Dosis', sans-serif;
+}
+
+/* font family: Source Sans */
+.group2text,
+.bolded,
+.card-list,
+.group4-text,
+.group5-text,
+.image-text {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.white-text {
+    color: white;
+    font-size: 20px;
+}
+
+.reserve-btn {
+    border: 2px solid #E5FEFF;
+}
+
+.group1BG {
+    background-image: url(../assets/hotelMarkupAssets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.group1header {
+    background-color: #000324;
+    margin-top: 134px;
+    margin-bottom: 134px;
+    opacity: .8;
+    color: #E5FEFF;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.group2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.header-size {
+    font-size: 35px;
+}
+
+.group2text {
+    font-size: 16px;
+}
+
+.group3BG {
+    background-image: url(../assets/hotelMarkupAssets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.room-title {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.bolded {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-list {
+    font-size: 16px;
+}
+
+/* Group 4 styles */
+
+.package-title {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.package-text2 {
+    margin-left: 70px;
+}
+
+.group4-text {
+    font-size: 16px;
+    color: #1A1B26;
+}
+
+.group5BG {
+    background-image: url(../assets/hotelMarkupAssets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.group5title {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.group5-text {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.group5img {
+    display: flex;
+    justify-content: center;
+}
+
+.align-pic {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.img-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.group6BG{
+    background-color: #000324 !important;
+}
+
+.group7BG {
+    background-image: url(../assets/hotelMarkupAssets/hamsterreserve.jpg);
+}
+
