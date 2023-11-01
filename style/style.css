@@ -11,7 +11,8 @@
 .card-title,
 .package-title,
 h3,
-.group5title {
+.group5title,
+.reserve-title {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -21,7 +22,10 @@ h3,
 .card-list,
 .group4-text,
 .group5-text,
-.image-text {
+.image-text,
+.reserve-search,
+.reserve-sumbmit,
+.footer {
     font-family: 'Source Sans 3', sans-serif;
 }
 
@@ -56,6 +60,10 @@ h3,
     margin-bottom: 100px;
 }
 
+.reserves1 {
+    border-radius: initial;
+    align-items: end;
+}
 
 .header-size {
     font-size: 35px;
@@ -141,9 +149,10 @@ h3 {
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .group6BG{
@@ -154,3 +163,35 @@ h3 {
     background-image: url(../assets/hotelMarkupAssets/hamsterreserve.jpg);
 }
 
+.reserve-title {
+    color: white;
+    font-size: 35px;
+}
+
+.reserve-search {
+    color: #E5FEFF;
+    font-size: 16px;
+}
+
+.input1 {
+    display: flex;
+    justify-content: start;
+}
+
+.reserve-submit {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: initial;
+}
+
+.search-style {
+    background-color: #EBEDFC;
+    border: 1px solid #7A90D9;
+    border-radius: initial;
+}
+
+.footer {
+    background-color: #000324;
+    color: #E5FEFF;
+    font-size: 16px;
+}
