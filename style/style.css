@@ -92,6 +92,10 @@ h3,
     border-top-right-radius: 0px ;
 }
 
+.card-img-top {
+    height: 190px;
+}
+
 .bolded {
     font-weight: bold;
     font-size: 16px;
@@ -171,12 +175,12 @@ h3 {
 
 .img-text {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 180px;
 }
 
 .group6BG{
@@ -195,7 +199,11 @@ h3 {
 .reserve-search {
     color: #E5FEFF;
     font-size: 16px;
-    padding: 0px 0px;
+    padding: 0px 12px;
+}
+
+.room-margins {
+    margin: 0px 0px 5px;
 }
 
 /* .no-padding {
@@ -220,6 +228,7 @@ h3 {
     background-color: #EBEDFC;
     border: 1px solid #7A90D9;
     border-radius: initial;
+    height: 44px;
 }
 
 .footer {
