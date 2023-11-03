@@ -1,11 +1,16 @@
 .nav-BG {
     background-color: #000324;
-    align-items: end;
+    /* align-items: end; */
+}
+
+.navbar-toggler {
+    color: white !important;
 }
 
 /* font family: Doris */
 .white-text, 
 .group1header,
+.res-group1header,
 .header-size,
 .room-title,
 .card-title,
@@ -23,7 +28,8 @@ h3,
 .reserves1,
 .group4-text,
 .group5-text,
-.image-text,
+.img-text,
+.img-text-res,
 .reserve-search,
 .reserve-sumbmit,
 .footer {
@@ -40,9 +46,20 @@ h3,
 }
 
 .group1BG {
+    width: 100%;
+    height: 500px;
     background-image: url(../assets/hotelMarkupAssets/header.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 250%;
+    background-position: 0% 55%;
+}
+
+.res-group1BG {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/hotelMarkupAssets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 105% 120%;
 }
 
 .group1header {
@@ -54,6 +71,17 @@ h3,
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.res-group1header {
+    background-color: #000324;
+    margin-top: 165px;
+    margin-bottom: 100px;
+    opacity: .8;
+    color: #E5FEFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .group2 {
@@ -72,8 +100,10 @@ h3,
 .group3BG {
     background-image: url(../assets/hotelMarkupAssets/bg2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 170%;
+    background-position: 0% 60%;
 }
+
 
 .room-title {
     font-size: 35px;
@@ -92,10 +122,6 @@ h3,
     border-top-right-radius: 0px ;
 }
 
-.card-img-top {
-    height: 190px;
-}
-
 .bolded {
     font-weight: bold;
     font-size: 16px;
@@ -109,15 +135,56 @@ h3,
     font-size: 16px;
 }
 
+
+.scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    flex-flow: row wrap;
+}
+
+.res-card {
+    display: inline-block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #cccccc;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4377a1;
+}
+
+
 ul li span {
     display: block;
     margin-left: -.5em;
+}
+
+.card-lg-margin {
+    margin-bottom: 100px;
+}
+
+.card-lg-padding {
+    padding-bottom: 0px;
+    
 }
 
 .card-footer .btn-primary,
 .card-body .btn-primary {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.card-footer:last-child {
+    border-radius: 0px;
 }
 
 .reserves1 {
@@ -149,7 +216,8 @@ h3 {
 .group5BG {
     background-image: url(../assets/hotelMarkupAssets/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 110% 200%;
+    background-position: 70% 75%;
 }
 
 .group5title {
@@ -173,6 +241,10 @@ h3 {
     margin-right: 80px;
 }
 
+.align-pool {
+    margin-left: 80px;
+}
+
 .img-text {
     font-weight: bold;
     font-size: 20px;
@@ -181,6 +253,34 @@ h3 {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 180px;
+}
+
+.img-text-res {
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.valet-align {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+}
+
+.amenities-padding {
+    padding: 0px 0px;
+}
+
+.carousel-inner>.carousel-item {
+    width: 100%;
+}
+
+.arrow-right,
+.arrow-left {
+    margin-bottom: 150px;
 }
 
 .group6BG{
@@ -196,19 +296,27 @@ h3 {
     font-size: 35px;
 }
 
+
+.reserve-padding {
+    padding-left: 0px;
+    padding-right: 12px;
+}
+
 .reserve-search {
     color: #E5FEFF;
     font-size: 16px;
-    padding: 0px 12px;
+    padding: 0px 0px;
+}
+
+.input-wrap {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .room-margins {
     margin: 0px 0px 5px;
 }
 
-/* .no-padding {
-    padding: 0px 0px;
-} */
 
 
 .input1 {
@@ -236,3 +344,4 @@ h3 {
     color: #E5FEFF;
     font-size: 16px;
 }
+
