@@ -63,11 +63,13 @@
     <div class="container-fluid d-block d-lg-none">
         <div class="row">
 
-            <nav class="navbar bg-body-tertiary fixed-top py-0">
+            <nav class="navbar nav bg-body-tertiary fixed-top py-0">
                 <div class="container-fluid nav-BG py-1">
-                    <a class="navbar-brand ms-4" href="#"><img src="./assets/hotelMarkupAssets/Logo.png" alt=""
+                    <a class="navbar-brand ms-3 d-none d-md-block" href="#"><img src="./assets/hotelMarkupAssets/Logo.png" alt=""
+                        height="80px"></a>
+                    <a class="navbar-brand ms-3 d-sm-block d-md-none" href="#"><img src="./assets/hotelMarkupAssets/Logo.png" alt=""
                             height="60px"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -75,32 +77,32 @@
                     <div class="offcanvas offcanvas-end menu-right" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">La Petite Maison</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            <h5 class="offcanvas-title res-offcanvas-text res-nav-title" id="offcanvasNavbarLabel">La Petite Maison</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body menu-right">
                             <ul class="navbar-nav flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#heading2scroll-med">Overview</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#heading2scroll-med">Overview</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#heading3scroll-med">Rooms</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#heading3scroll-med">Rooms</a>
                                 </li>
                                 <li class="nav-item d-none d-md-block">
-                                    <a class="nav-link" href="#heading4scroll-med">Packages</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#heading4scroll-med">Packages</a>
                                 </li>
                                 <li class="nav-item d-xs-block d-sm-block d-md-none">
-                                    <a class="nav-link" href="#heading4small">Packages</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#heading4small">Packages</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#heading5scroll-md">Amenities</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#heading5scroll-md">Amenities</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#footerscroll">Contact</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#footerscroll">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#heading6scroll">Reserves</a>
+                                    <a class="nav-link res-offcanvas-text res-navheaders" href="#heading6scroll">Reserves</a>
                                 </li>
                             </ul>
                         </div>
@@ -119,9 +121,9 @@
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8 group1header">
-                    <h1 class="mb-0" style="opacity: 1;">Run on the wheel of luxury</h1>
+                    <h1 class="mb-0 opacity-1">Run on the wheel of luxury</h1>
                     <br>
-                    <p style="opacity: 1;">Explore everything the beach has to offer in our relaxing resort.</p>
+                    <p class="opacity-1">Explore everything the beach has to offer in our relaxing resort.</p>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -133,8 +135,8 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-10 res-group1header">
-                    <h2 class="mb-0" style="opacity: 1;">Run on the wheel of luxury</h2>
-                    <p class="mt-3" style="opacity: 1; font-size: 11px;">Explore everything the beach has to offer in
+                    <h2 class="mb-0 opacity-1">Run on the wheel of luxury</h2>
+                    <p class="mt-3 opacity-1 gp1-text-res">Explore everything the beach has to offer in
                         our relaxing resort.</p>
                 </div>
                 <div class="col-1"></div>
@@ -147,9 +149,8 @@
     <div id="heading2scroll" class="container group2 d-none d-lg-block ">
         <div class="row">
 
-            <div class="col-4 d-flex justify-content-end px-0 pt-2"><img
-                    src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg" alt="" width="369px" height="420px"
-                    style="object-fit: cover;"></div>
+            <div class="col-4 d-flex justify-content-end px-0 pt-2"><img class="cover-object"
+                    src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg" alt="" width="369px" height="420px"></div>
             <div class="col-8">
                 <div class="row">
                     <div class="col-12 group2text ">
@@ -189,10 +190,9 @@
     <div id="heading2scroll-med" class="container group2 d-sm-block d-md-block d-lg-none">
         <div class="row">
 
-            <div class="col-12 d-flex justify-content-center px-0 pt-2"><img
-                    src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg" alt="" width="325px" height="370px"
-                    style="object-fit: cover;"></div>
-            <div class="col-12 d-flex justify-content-center" style="text-align: center;">
+            <div class="col-12 d-flex justify-content-center px-0 pt-2"><img class="cover-object"
+                    src="./assets/hotelMarkupAssets/hamsterhomejpg.jpg" alt="" width="325px" height="370px"></div>
+            <div class="col-12 d-flex justify-content-center text-center">
                 <div class="row">
                     <div class="col-12 group2text ">
                         <p><span class="header-size">Welcome to a hamster's paradise</span>
@@ -234,15 +234,14 @@
     <div id="heading3scroll" class="container-fluid group3BG d-none d-lg-block">
         <div class="row">
             <div class="col">
-                <h2 class="room-title" style="text-align: center;">Our Rooms</h2>
+                <h2 class="room-title text-center">Our Rooms</h2>
             </div>
         </div>
 
         <div class="container d-flex justify-content-center">
-            <div class="row mb-5">
-                <div class="col d-flex justify-content-center mb-5 d-none d-xl-block d-xxl-block"
-                    style="padding: 0px 7px;">
-                    <div class="card room-border" style="width: 369px; height: 522px;">
+            <div class="row mb-0">
+                <div class="col d-flex justify-content-center mb-5 d-none d-xl-block d-xxl-block room-padding-xl">
+                    <div class="card room-border" style="width: 369px; height: 500px;">
                         <img src="./assets/hotelMarkupAssets/room1.jpg" class="card-img-top" alt="..." height="190px">
                         <div class="card-body">
                             <h5 class="card-title">Queen Room</h5>
@@ -254,15 +253,14 @@
                             </ul>
                             </p>
                         </div>
-                        <div class="card-footer py-4" style="background-color: white; border: none;">
+                        <div class="card-footer py-4 ftBG ftborder">
                             <a href="#" class="btn btn-primary reserves1">Reserve</a>
                         </div>
                     </div>
                 </div>
                 <!-- Responsiveness for large: card 1 -->
-                <div class="col d-flex justify-content-center card-lg-margin d-lg-block d-xl-none d-xxl-none"
-                    style="padding: 0px 7px;">
-                    <div class="card room-border" style="width: 300px; height: 455px;">
+                <div class="col mb-5 d-flex justify-content-center card-lg-margin d-lg-block d-xl-none d-xxl-none room-padding">
+                    <div class="card room-border" style="width: 300px; height: 533px;">
                         <img src="./assets/hotelMarkupAssets/room1.jpg" class="card-img-top" alt="..." height="190px">
                         <div class="card-body card-lg-padding">
                             <h5 class="card-title">Queen Room</h5>
@@ -274,15 +272,14 @@
                             </ul>
                             </p>
                         </div>
-                        <div class="card-footer pb-4" style="background-color: white; border: none; padding-top: 32px;">
+                        <div class="card-footer pb-4 ftBG ftborder" style="padding-top: 32px;">
                             <a href="#" class="btn btn-primary reserves1">Reserve</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex justify-content-center mb-5 d-none d-xl-block d-xxl-block"
-                    style="padding: 0px 7px;">
-                    <div class="card" style="width: 369px; height: 522px;">
+                <div class="col d-flex justify-content-center mb-5 d-none d-xl-block d-xxl-block room-padding-xl">
+                    <div class="card" style="width: 369px; height: 500px;">
                         <img src="./assets/hotelMarkupAssets/room3.jpg" class="card-img-top" alt="..." height="190px">
                         <div class="card-body">
                             <h5 class="card-title">King Room</h5>
@@ -294,15 +291,14 @@
                             </ul>
                             </p>
                         </div>
-                        <div class="card-footer py-4" style="background-color: white; border: none;">
+                        <div class="card-footer py-4 ftBG ftborder">
                             <a href="#" class="btn btn-primary reserves1">Reserve</a>
                         </div>
                     </div>
                 </div>
                 <!-- Responsiveness for large: card 2 -->
-                <div class="col d-flex justify-content-center card-lg-margin d-lg-block d-xl-none d-xxl-none"
-                    style="padding: 0px 7px;">
-                    <div class="card" style="width: 300px; height: 455px;">
+                <div class="col d-flex justify-content-center card-lg-margin d-lg-block d-xl-none d-xxl-none room-padding">
+                    <div class="card" style="width: 300px; height: 533px;">
                         <img src="./assets/hotelMarkupAssets/room3.jpg" class="card-img-top" alt="..." height="190px">
                         <div class="card-body card-lg-padding">
                             <h5 class="card-title">King Room</h5>
@@ -310,38 +306,39 @@
                             <ul class="card-list px-3 ">
                                 <li class="pb-2"><span>One king size bed</span></li>
                                 <li class="pb-2"><span>Seed bar, fireplace and large baclony</span></li>
-                                <li class="pb-2"><span>Small kitchen with a refrigerator and stove</span></li>
+                                <li class="pb-2"><span class="wrap-text">Small kitchen with a refrigerator and stove</span></li>
                             </ul>
                             </p>
                         </div>
-                        <div class="card-footer pb-4" style="background-color: white; border: none;">
+                        <div class="card-footer pb-4 ftBG ftborder">
                             <a href="#" class="btn btn-primary reserves1">Reserve</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col d-flex justify-content-center d-none d-xl-block d-xxl-block" style="padding: 0px 7px;">
-                    <div class="card" style="width: 369px; height: 522px;">
+                <div class="col d-flex justify-content-center d-none d-xl-block d-xxl-block room-padding-xl">
+                    <div class="card" style="width: 369px; height: 500px;">
                         <img src="./assets/hotelMarkupAssets/room2.jpg" class="card-img-top" alt="..." height="190px">
-                        <div class="card-body">
+                        <div class="card-body pb-0">
                             <h5 class="card-title">Beach Side Suite</h5>
                             <p class="card-text"><span class="bolded">1500 SQ FT Suit with beach view</span>
                             <ul class="card-list px-3">
-                                <li class="pb-2"><span>One California king size bed</span></li>
-                                <li class="pb-2"><span>Second room with fireplace, hot tub, and balcony</span></li>
-                                <li class="pb-2"><span>Seed Bar and coffee station</span></li>
-                                <li class="pb-2"><span style="white-space: nowrap;">Full kitchen with a refrigerator,
+                                <li class="pb-1"><span>One California king size bed</span></li>
+                                <li class="pb-1"><span>Second room with fireplace, hot tub, and balcony</span></li>
+                                <li class="pb-1"><span>Seed Bar and coffee station</span></li>
+                                <li class="pb-1"><span class="text-nowrap">Full kitchen with a refrigerator,
                                         stove, and island</span></li>
                             </ul>
                             </p>
+                        </div>
+                        <div class="card-footer pt-0 pb-4 ftBG ftborder xl-beach-margin">
                             <a href="#" class="btn btn-primary reserves1">Reserve</a>
                         </div>
                     </div>
                 </div>
                 <!-- Responsiveness for large: card 3 -->
-                <div class="col d-flex justify-content-center card-lg-margin d-lg-block d-xl-none d-xxl-none"
-                    style="padding: 0px 7px;">
-                    <div class="card" style="width: 300px; height: 521px;">
+                <div class="col d-flex justify-content-center card-lg-margin d-lg-block d-xl-none d-xxl-none room-padding">
+                    <div class="card" style="width: 300px; height: 480px;">
                         <img src="./assets/hotelMarkupAssets/room2.jpg" class="card-img-top" alt="..." height="190px">
                         <div class="card-body">
                             <h5 class="card-title">Beach Side Suite</h5>
@@ -350,10 +347,12 @@
                                 <li class="pb-2"><span>One California king size bed</span></li>
                                 <li class="pb-2"><span>Second room with fireplace, hot tub, and balcony</span></li>
                                 <li class="pb-2"><span>Seed Bar and coffee station</span></li>
-                                <li class="pb-2"><span style="white-space: nowrap;">Full kitchen with a refrigerator,
+                                <li class="pb-2"><span class="wrap-text">Full kitchen with a refrigerator,
                                         stove, and island</span></li>
                             </ul>
                             </p>
+                        </div>
+                        <div class="card-footer pb-4 ftBG ftborder lg-beach-margin">
                             <a href="#" class="btn btn-primary reserves1">Reserve</a>
                         </div>
                     </div>
@@ -365,7 +364,7 @@
     <div id="heading3scroll-med" class="container-fluid group3BG d-sm-block d-md-block d-lg-none">
         <div class="row">
             <div class="col">
-                <h2 class="room-title" style="text-align: center;">Our Rooms</h2>
+                <h2 class="room-title text-center">Our Rooms</h2>
             </div>
         </div>
 
@@ -373,8 +372,7 @@
 
             <div class="container d-flex justify-content-start">
                 <div class="row">
-                    <div class="col d-flex justify-content-center mb-5 me-5 d-sm-block d-md-block d-lg-none"
-                        style="padding: 0px 7px;">
+                    <div class="col d-flex justify-content-center mb-5 me-5 d-sm-block d-md-block d-lg-none room-padding">
                         <div class="card room-border" style="width: 300px; height: 530px;">
                             <img src="./assets/hotelMarkupAssets/room1.jpg" class="card-img-top" alt="..."
                                 height="190px">
@@ -384,12 +382,12 @@
                                 <ul class="card-list px-3">
                                     <li class="pb-2"><span>One queen size bed</span></li>
                                     <li class="pb-2"><span>Seed bar, fireplace and large balcony</span></li>
-                                    <li class="pb-2"><span style="white-space: wrap;">Small kitchen with a refrigerator
+                                    <li class="pb-2"><span class="wrap-text">Small kitchen with a refrigerator
                                             and stove</span></li>
                                 </ul>
                                 </p>
                             </div>
-                            <div class="card-footer py-4" style="background-color: white; border: none;">
+                            <div class="card-footer py-4 ftBG ftborder">
                                 <a href="#" class="btn btn-primary reserves1">Reserve</a>
                             </div>
                         </div>
@@ -397,8 +395,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col d-flex justify-content-center mb-5 me-5 d-sm-block d-md-block d-lg-none"
-                        style="padding: 0px 7px;">
+                    <div class="col d-flex justify-content-center mb-5 me-5 d-sm-block d-md-block d-lg-none room-padding">
                         <div class="card" style="width: 300px; height: 530px;">
                             <img src="./assets/hotelMarkupAssets/room3.jpg" class="card-img-top" alt="..."
                                 height="190px">
@@ -408,12 +405,12 @@
                                 <ul class="card-list px-3 ">
                                     <li class="pb-2"><span>One king size bed</span></li>
                                     <li class="pb-2"><span>Seed bar, fireplace and large baclony</span></li>
-                                    <li class="pb-2"><span style="white-space: wrap;">Small kitchen with a refrigerator
+                                    <li class="pb-2"><span class="wrap-text">Small kitchen with a refrigerator
                                             and stove</span></li>
                                 </ul>
                                 </p>
                             </div>
-                            <div class="card-footer py-4" style="background-color: white; border: none;">
+                            <div class="card-footer py-4 ftBG ftborder">
                                 <a href="#" class="btn btn-primary reserves1">Reserve</a>
                             </div>
                         </div>
@@ -421,8 +418,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col d-flex justify-content-center d-sm-block d-md-block d-lg-none"
-                        style="padding: 0px 7px;">
+                    <div class="col d-flex justify-content-center d-sm-block d-md-block d-lg-none room-padding">
                         <div class="card" style="width: 300px; height: 530px;">
                             <img src="./assets/hotelMarkupAssets/room2.jpg" class="card-img-top" alt="..."
                                 height="190px">
@@ -431,10 +427,10 @@
                                 <p class="card-text"><span class="bolded">1500 SQ FT Suit with beach view</span>
                                 <ul class="card-list px-3">
                                     <li class="pb-2"><span>One California king size bed</span></li>
-                                    <li class="pb-2"><span style="white-space: wrap;">Second room with fireplace, hot
+                                    <li class="pb-2"><span class="wrap-text">Second room with fireplace, hot
                                             tub, and balcony</span></li>
                                     <li class="pb-2"><span>Seed Bar and coffee station</span></li>
-                                    <li><span style="white-space: wrap;">Full kitchen with a refrigerator,
+                                    <li><span class="wrap-text">Full kitchen with a refrigerator,
                                             stove, and island</span></li>
                                 </ul>
                                 </p>
@@ -455,14 +451,14 @@
     <div id="heading4scroll" class="container my-5 d-none d-xl-block">
         <div class="row">
             <div class="col mt-5 mb-4">
-                <h2 class="package-title" style="text-align: center;">Packages</h2>
+                <h2 class="package-title text-center">Packages</h2>
             </div>
         </div>
 
         <div class="row ">
-            <div class="col d-flex justify-content-end"><img src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt=""
-                    width="561px" height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
-            <div class="col">
+            <div class="col d-flex justify-content-end"><img class="packImg-lg1" src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt=""
+                    width="561px" height="250px"></div>
+            <div class="col ps-0">
                 <h3 class="mt-3">Beach Wedding package</h3>
                 <p class="group4-text" style="color: #1F51A8;">Starting US $1,500.00</p>
                 <p class="group4-text me-5">Feel the warmth of the beach as the flames in your hearts ignite during our
@@ -481,14 +477,14 @@
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
                     musicians.</p>
             </div>
-            <div class="col-6 px-0 mx-0"><img src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="" width="561px"
-                    height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
+            <div class="col-6 ps-1 px-0 mx-0"><img class="packImg-lg2" src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="" width="591px"
+                    height="250px"></div>
         </div>
 
         <div class="row pb-5">
-            <div class="col d-flex justify-content-end"><img src="./assets/hotelMarkupAssets/hamstercheese.jpg" alt=""
-                    width="561px" height="250px" style="object-fit: cover; object-position: 0% 70%;"></div>
-            <div class="col">
+            <div class="col d-flex justify-content-end"><img class="packImg-lg3" src="./assets/hotelMarkupAssets/hamstercheese.jpg" alt=""
+                    width="561px" height="250px"></div>
+            <div class="col ps-0">
                 <h3 class="mt-3">Cheese and Seed Tour Package</h3>
                 <p class="group4-text" style="color: #1F51A8;">Starting US $1,200.00</p>
                 <p class="group4-text me-5 pe-5">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour.
@@ -503,16 +499,16 @@
     <div id="heading4scroll-lg" class="container my-5 d-none d-lg-block d-xl-none">
         <div class="row">
             <div class="col mt-5 mb-4">
-                <h2 class="package-title" style="text-align: center;">Packages</h2>
+                <h2 class="package-title text-center">Packages</h2>
             </div>
         </div>
 
         <div class="row mb-3">
-            <div class="col d-flex justify-content-end"><img src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt=""
-                    width="460px" height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
+            <div class="col d-flex justify-content-end"><img class="packImg-lg1" src="./assets/hotelMarkupAssets/hamsterwedding.jpg" alt=""
+                    width="460px" height="250px"></div>
             <div class="col px-0">
                 <h3 class="mt-3">Beach Wedding package</h3>
-                <p class="group4-text" style="color: #1F51A8;">Starting US $1,500.00</p>
+                <p class="group4-text pack-bluetxt">Starting US $1,500.00</p>
                 <p class="group4-text ">Feel the warmth of the beach as the flames in your hearts ignite during our
                     romantic beach side wedding. All wedding packages include catering, an open bar, and one tier
                     wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and
@@ -523,22 +519,22 @@
         <div class="row mb-3">
             <div class="col my-3">
                 <h3>Full Bloom Package</h3>
-                <p class="group4-text" style="color: #1F51A8;">Starting US $1,000.00</p>
+                <p class="group4-text pack-bluetxt">Starting US $1,000.00</p>
                 <p class="group4-text">Enjoy the shade of our cherry trees as you join us during our spring time
                     celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
                     musicians.</p>
             </div>
-            <div class="col-6 px-0 mx-0"><img src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="" width="460px"
-                    height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
+            <div class="col-6 px-0 mx-0"><img class="packImg-lg1" src="./assets/hotelMarkupAssets/hamsterspring.jpg" alt="" width="460px"
+                    height="250px"></div>
         </div>
 
         <div class="row pb-5">
-            <div class="col d-flex justify-content-end"><img src="./assets/hotelMarkupAssets/hamstercheese.jpg" alt=""
-                    width="460px" height="250px" style="object-fit: cover; object-position: 0% 70%;"></div>
+            <div class="col d-flex justify-content-end"><img class="packImg-lg3" src="./assets/hotelMarkupAssets/hamstercheese.jpg" alt=""
+                    width="460px" height="250px"></div>
             <div class="col px-0">
                 <h3 class="mt-3">Cheese and Seed Tour Package</h3>
-                <p class="group4-text" style="color: #1F51A8;">Starting US $1,200.00</p>
+                <p class="group4-text pack-bluetxt">Starting US $1,200.00</p>
                 <p class="group4-text">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour.
                     We
                     consulted with connoisseurs from around the globe to bring you the best flavors that nature has to
@@ -551,16 +547,16 @@
     <div id="heading4scroll-med" class="container my-5 d-none d-md-block d-lg-none">
         <div class="row">
             <div class="col mt-5 mb-4">
-                <h2 class="package-title" style="text-align: center;">Packages</h2>
+                <h2 class="package-title text-center">Packages</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img src="./assets/hotelMarkupAssets/hamsterwedding.jpg"
-                    alt="" width="561px" height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
+            <div class="col-12 d-flex justify-content-center"><img class="packImg-lg1" src="./assets/hotelMarkupAssets/hamsterwedding.jpg"
+                    alt="" width="561px" height="250px"></div>
             <div class="col-12">
-                <h3 class="mt-3" style="text-align: center;">Beach Wedding package</h3>
-                <p class="group4-text" style="text-align: center; color: #1F51A8;">Starting US $1,500.00</p>
+                <h3 class="mt-3 text-center">Beach Wedding package</h3>
+                <p class="group4-text pack-bluetxt">Starting US $1,500.00</p>
                 <p class="group4-text">Feel the warmth of the beach as the flames in your hearts ignite during our
                     romantic beach side wedding. All wedding packages include catering, an open bar, and one tier
                     wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and
@@ -569,11 +565,11 @@
         </div>
 
         <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img src="./assets/hotelMarkupAssets/hamsterspring.jpg"
-                    alt="" width="561px" height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
+            <div class="col-12 d-flex justify-content-center"><img class="packImg-lg1" src="./assets/hotelMarkupAssets/hamsterspring.jpg"
+                    alt="" width="561px" height="250px"></div>
             <div class="col-12 my-3">
-                <h3 style="text-align: center;">Full Bloom Package</h3>
-                <p class="group4-text" style="text-align: center; color: #1F51A8;">Starting US $1,000.00</p>
+                <h3 class="text-center">Full Bloom Package</h3>
+                <p class="group4-text pack-bluetxt">Starting US $1,000.00</p>
                 <p class="group4-text">Enjoy the shade of our cherry trees as you join us during our spring time
                     celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
@@ -582,11 +578,11 @@
         </div>
 
         <div class="row pb-5">
-            <div class="col-12 d-flex justify-content-center"><img src="./assets/hotelMarkupAssets/hamstercheese.jpg"
-                    alt="" width="561px" height="250px" style="object-fit: cover; object-position: 0% 70%;"></div>
+            <div class="col-12 d-flex justify-content-center"><img class="packImg-lg3" src="./assets/hotelMarkupAssets/hamstercheese.jpg"
+                    alt="" width="561px" height="250px"></div>
             <div class="col-12">
-                <h3 class="mt-3" style="text-align: center;">Cheese and Seed Tour Package</h3>
-                <p class="group4-text" style="text-align: center; color: #1F51A8;">Starting US $1,200.00</p>
+                <h3 class="mt-3 text-center">Cheese and Seed Tour Package</h3>
+                <p class="group4-text pack-bluetxt">Starting US $1,200.00</p>
                 <p class="group4-text">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
                     consulted with connoisseurs from around the globe to bring you the best flavors that nature has to
                     offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day
@@ -598,16 +594,16 @@
     <div id="heading4small" class="container my-5 d-sm-block d-md-none">
         <div class="row">
             <div class="col mt-5 mb-4">
-                <h2 class="package-title" style="text-align: center;">Packages</h2>
+                <h2 class="package-title text-center">Packages</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img src="./assets/hotelMarkupAssets/hamsterwedding.jpg"
-                    alt="" width="300px" height="250px" style="object-fit: cover; object-position: 0% 0%;"></div>
+            <div class="col-12 d-flex justify-content-center"><img class="packImg-lg1" src="./assets/hotelMarkupAssets/hamsterwedding.jpg"
+                    alt="" width="300px" height="250px"></div>
             <div class="col-12">
-                <h3 class="mt-3" style="text-align: center;">Beach Wedding package</h3>
-                <p class="group4-text" style="text-align: center; color: #1F51A8;">Starting US $1,500.00</p>
+                <h3 class="mt-3 text-center">Beach Wedding package</h3>
+                <p class="group4-text text-center pack-bluetxt">Starting US $1,500.00</p>
                 <p class="group4-text mx-2">Feel the warmth of the beach as the flames in your hearts ignite during our
                     romantic beach side wedding. All wedding packages include catering, an open bar, and one tier
                     wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and
@@ -616,11 +612,11 @@
         </div>
 
         <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img src="./assets/hotelMarkupAssets/hamsterspring.jpg"
-                    alt="" width="300px" height="250px" style="object-fit: cover; object-position: 60% 0%;"></div>
+            <div class="col-12 d-flex justify-content-center"><img class="packImg-sm1" src="./assets/hotelMarkupAssets/hamsterspring.jpg"
+                    alt="" width="300px" height="250px"></div>
             <div class="col-12 my-3">
-                <h3 style="text-align: center;">Full Bloom Package</h3>
-                <p class="group4-text" style="text-align: center; color: #1F51A8;">Starting US $1,000.00</p>
+                <h3 class="text-center">Full Bloom Package</h3>
+                <p class="group4-text text-center pack-bluetxt">Starting US $1,000.00</p>
                 <p class="group4-text mx-2">Enjoy the shade of our cherry trees as you join us during our spring time
                     celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
@@ -629,11 +625,11 @@
         </div>
 
         <div class="row pb-5">
-            <div class="col-12 d-flex justify-content-center"><img src="./assets/hotelMarkupAssets/hamstercheese.jpg"
-                    alt="" width="300px" height="250px" style="object-fit: cover; object-position: 20% 70%;"></div>
+            <div class="col-12 d-flex justify-content-center"><img class="packImg-sm2" src="./assets/hotelMarkupAssets/hamstercheese.jpg"
+                    alt="" width="300px" height="250px"></div>
             <div class="col-12">
-                <h3 class="mt-3" style="text-align: center;">Cheese and Seed Tour Package</h3>
-                <p class="group4-text" style="text-align: center; color: #1F51A8;">Starting US $1,200.00</p>
+                <h3 class="mt-3 text-center">Cheese and Seed Tour Package</h3>
+                <p class="group4-text text-center pack-bluetxt">Starting US $1,200.00</p>
                 <p class="group4-text mx-2">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
                     consulted with connoisseurs from around the globe to bring you the best flavors that nature has to
                     offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day
@@ -646,7 +642,7 @@
     <!-- Start of Group 5: Amenities -->
     <div id="heading5scroll" class="container-fluid group5BG d-none d-xl-block">
         <div class="row">
-            <div class="col my-5" style="text-align: center;">
+            <div class="col my-5 text-center">
                 <h2 class="group5title">Amenities</h2>
                 <p class="group5-text">Here at La Petite Maison, we invite you to enjoy our services in hopes that you
                     have the most relaxing stay we can provide.</p>
@@ -678,7 +674,7 @@
     <!-- RESPONSIVENESS LARGE -->
     <div id="heading5scroll-lg" class="container-fluid group5BG d-none d-lg-block d-xl-none">
         <div class="row">
-            <div class="col my-5" style="text-align: center;">
+            <div class="col my-5 text-center">
                 <h2 class="group5title">Amenities</h2>
                 <p class="group5-text">Here at La Petite Maison, we invite you to enjoy our services in hopes that you
                     have the most relaxing stay we can provide.</p>
@@ -709,12 +705,12 @@
     <!-- REPSONSIVENESS FOR MD/SM -->
     <div id="heading5scroll-md" class="container-fluid group5BG d-sm-block d-md-block d-lg-none">
         <div class="row">
-            <div class="col-12 mt-5" style="text-align: center;">
+            <div class="col-12 mt-5 text-center">
                 <h2 class="group5title">Amenities</h2>
             </div>
             <div class="row mt-0 mb-5">
                 <div class="col-1"></div>
-                <div class="col style=" style="text-align: center;">
+                <div class="col text-center">
                     <p class="group5-text">Here at La Petite Maison, we invite you to enjoy our services in hopes that
                         you
                         have the most relaxing stay we can provide.</p>
@@ -768,7 +764,7 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 group6BG my-5 pt-4 px-0">
-                <div class="row" style="text-align: center;">
+                <div class="row text-center">
                     <div class="col">
                         <h2 class="reserve-title">Reserve a Room</h2>
                     </div>
@@ -804,15 +800,14 @@
                         <div class="col-12 reserve-search">
                             <p class="room-margins">Room Type</p>
                         </div>
-                        <div class="col-12 reserve-padding">
+                        <div class="col-12">
                             <input class="form-control search-style" type="search" aria-label="Search">
                         </div>
                     </div>
                     <div class="col reserve-padding">
                         <div class="col-12" style="margin-bottom: 5px;"><br></div>
                         <div class="col-12">
-                            <button class="btn btn-primary reserve-submit" type="submit"
-                                style="white-space: nowrap;">Check Availability</button>
+                            <button class="btn btn-primary reserve-submit text-nowrap" type="submit">Check Availability</button>
                         </div>
                     </div>
                 </div>
@@ -830,7 +825,7 @@
         <div class="row">
             <div class="col-1"></div>
             <div class="col-10 group6BG  pt-4 px-0">
-                <div class="row" style="text-align: center;">
+                <div class="row text-center">
                     <div class="col">
                         <h2 class="reserve-title">Reserve a Room</h2>
                     </div>
@@ -893,8 +888,7 @@
                     <div class="col-10 reserve-padding">
                         <div class="col-12" style="margin-bottom: 5px;"><br></div>
                         <div class="col-12">
-                            <button class="btn btn-primary reserve-submit" type="submit"
-                                style="white-space: nowrap;">Check Availability</button>
+                            <button class="btn btn-primary reserve-submit text-nowrap" type="submit">Check Availability</button>
                         </div>
                     </div>
                     <div class="col-1"></div>
@@ -921,7 +915,7 @@
     <!-- Start of Footer -->
     <div id="footerscroll" class="container-fluid footer pb-2">
         <div class="row">
-            <div class="col pt-4" style="text-align: center;">
+            <div class="col pt-4 text-center">
                 <img src="./assets/hotelMarkupAssets/Logo.png" alt="" width="143px" height="100px">
             </div>
         </div>
@@ -930,7 +924,7 @@
                 <p>123 Sunflower Seed Rd., Cavia, California 95205</p>
             </div>
         </div>
-        <div class="row pb-5" style="text-align: center;">
+        <div class="row pb-5 text-center">
             <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
         </div>
     </div>

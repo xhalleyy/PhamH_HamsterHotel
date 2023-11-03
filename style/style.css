@@ -1,13 +1,28 @@
-.nav-BG {
+.nav-BG,
+.menu-right {
     background-color: #000324;
-    /* align-items: end; */
 }
 
 .navbar-toggler {
-    color: white !important;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+
+.res-offcanvas-text {
+    color: #FFFFFF;
+}
+
+.res-nav-title {
+    font-size: 30px;
+}
+
+.res-nav-headers {
+    font-size: 20px;
 }
 
 /* font family: Doris */
+.res-offcanvas-text,
 .white-text, 
 .group1header,
 .res-group1header,
@@ -36,8 +51,12 @@ h3,
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .white-text {
-    color: white;
+    color: #FFFFFF;
     font-size: 20px;
 }
 
@@ -72,7 +91,6 @@ h3,
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .res-group1header {
     background-color: #000324;
     margin-top: 165px;
@@ -84,9 +102,21 @@ h3,
     padding-bottom: 20px;
 }
 
+.opacity-1 {
+    opacity: 1;
+}
+
+.gp1-text-res {
+    font-size: 11px;
+}
+
 .group2 {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.cover-object {
+    object-fit: cover;
 }
 
 .header-size {
@@ -104,6 +134,15 @@ h3,
     background-position: 0% 60%;
 }
 
+.room-padding {
+    padding: 0px 7px;
+}
+
+.room-padding-xl {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 50px;
+}
 
 .room-title {
     font-size: 35px;
@@ -135,6 +174,29 @@ h3,
     font-size: 16px;
 }
 
+.ftBG {
+    background-color: white;
+}
+
+.ftborder {
+    border: none;
+}
+
+.xl-beach-margin {
+    margin-top: 0px;
+}
+
+.lg-beach-margin {
+    margin-top: -36px;
+}
+
+.wrap-text {
+    white-space: wrap;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
 
 .scroll {
     overflow-x: scroll;
@@ -149,7 +211,7 @@ h3,
 
 /* width */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 20px;
   }
   
   /* Track */
@@ -229,6 +291,35 @@ h3 {
     font-size: 16px;
     color: #FFFFFF;
     margin-top: 25px;
+}
+
+.pack-bluetxt {
+    color: #1F51A8;
+}
+
+.packImg-lg1 {
+    object-fit: cover; 
+    object-position: 0% 0%;
+}
+
+.packImg-lg2 {
+    object-fit: cover; 
+    object-position: 0% 30%;
+}
+
+.packImg-lg3 {
+    object-fit: cover; 
+    object-position: 0% 70%;
+}
+
+.packImg-sm1 {
+    object-fit: cover; 
+    object-position: 60% 0%;
+}
+
+.packImg-sm2 {
+    object-fit: cover; 
+    object-position: 20% 70%;
 }
 
 .group5img {
