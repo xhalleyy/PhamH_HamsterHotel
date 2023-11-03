@@ -291,6 +291,13 @@ h3 {
     background-position: 70% 75%;
 }
 
+.group5BG-md {
+    background-image: url(../assets/hotelMarkupAssets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 250% 250%;
+    background-position: 70% 75%;
+}
+
 .group5title {
     font-size: 35px;
     color: #FFFFFF;
