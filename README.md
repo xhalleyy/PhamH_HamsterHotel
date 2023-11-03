@@ -11,3 +11,5 @@ For tablet/phone or med/small breakpoints, the room cards go into a horizontal s
   - 11/1: Was able to crop most of the images using object-fit and object-position. Started on the responsiveness for tablet/medium. 
   - 11/2: Did majority of responsiveness by hiding containers/blocks and making them visible 
   - 11/3: Fixed styling of offcanvas navbar, i.e. coloring, font
+- Peer Reviewer:
+  - Feedback:
