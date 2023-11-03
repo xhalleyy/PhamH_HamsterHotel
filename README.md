@@ -1,6 +1,6 @@
 # PhamH_HamsterHotel
 
-The navbar headings are linked to portions(ids) of the page, so it'll go downwards to what heading you click. For tablet/phone or med/small breakpoints, the room cards go into a horizontal scroll. You can use your trackpad or hold right click and drag left and right. You can also tap the scroll bar.
+The navbar headings are linked to portions(ids) of the page, so it'll go downwards to what heading you click. For tablet/phone or med/small breakpoints, the room cards go into a horizontal scroll. You can use your trackpad or hold left click and drag left and right. You can also tap the scroll bar. 
 
 - Halley Pham
 - Hamster Hotel
